@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: Poppins;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(200, 238, 255);
+}
+
+.navbar {
+    height: 70px;
+}
+
+header{
+    background-color: rgb(0, 72, 255);
+    position:relative;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 1% 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.29)); }
+
+header.png{
+    width:60px;
+}
+
+header.icon{
+    width: 0px;
+    height: 0px;
+}
+
+header.elemental{
+    display: inline-block;
+}
+
+header.logo{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    list-style: none;
+    margin-left: 20px;
+    color:aliceblue;
+    display: flex;
+    overflow:auto;
+    justify-content: space-around;
+    width: 100%;
+    font-size: auto;
+}
+
+header ul li{
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 6px;
+    padding-inline: 18px;;
+    border-radius: 9px;
+    background-color: rgb(25, 118, 249);
+    margin-top: 16px;
+}
+
+header ul li:hover,
+header ul li:hover,
+header ul li:hover{
+    background-color: rgb(40, 129, 253);
+    transform:scale(109%);
+    transition-duration: 0.12s;
+    cursor: pointer;
+    text-decoration: solid;
+    filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
+}
+
+header.heading{
+    margin-bottom: 0px;
+}
+
+header.breif{
+    margin-left: 160px;;
+}
+
+header.search-bar{
+        font-size: 80%;
+        width: 5%;
+        display: block;
+
+    }
+
+header.logo2:hover{
+    transform: scale(200%);
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0,0.2));
+}
+
+.heading{
+    color: darkblue;
+    width: 90%;
+    font-family: Poppins;
+    font-weight:bold;
+    padding-left: 1%;
+    padding-bottom: 3%;
+}
+
+.info{
+    padding-left: 6%;
+    color:rgb(2, 75, 78);
+    font-size: 90%;
+    font-family: Poppins;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.contents{
+    display: grid;
+    padding-top: 5%;
+    align-content: center;
+    transition: ease-in 0.3s;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10%;
+    align-content: center;
+}
+
+.pfp{
+    filter: drop-shadow(2px 3px 4px rgba(0,14,65,0.2));
+}
+
+.pfp:hover{
+    transform: scale(102%);
+    cursor: pointer;
+    transition: 0.2s;
+    filter: drop-shadow(2px 3px 4px rgba(0, 14, 65, 0.7));
+}
